@@ -1,0 +1,26 @@
+#app {}
+
+#app .switch-color li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#app .switch-color li:first-child {
+    background-color: brown;
+}
+
+#app .switch-color li:nth-child(2) {
+    background-color: cyan;
+}
+
+#app .switch-color li:last-child {
+    background-color: crimson;
+}
+
+#app .change-color {
+    width: 200px;
+    height: 100px;
+    background-color: var(--mainColor);
+    display: inline-block;
+}
